@@ -6,8 +6,17 @@
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     </head>
     <body>
-	<div>
-	    {% block body %}{% endblock %}
+	<div class="title">
+	    <center><h2>JCS Computer Club</h2></center>
+	</div>
+	<div class="menu">
+	    <nav>
+		<ul>
+		    <li><a href="/"><b>home</b></a></li>
+		    <li><a href="/"><b>about</b></a></li>
+		    <li><a href="/"><b>contest</b></a></li>
+		</ul>
+	    </nav>
 	</div>
     </body>
 </html>

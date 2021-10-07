@@ -1,4 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 body {
-    background-color: #181818;
-    color: #ffffff;
+    background-color: #1c1c1c;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    background-color: #013220;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #eeeeee;
+    float: left;
+}
+
+.menu {
+    background-color: #013220;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #eeeeee;
+    float: right;
+    font-size: 18px;
+}
+
+/* top menu */
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+ul li a {
+    color: #eeeeee;
+    padding: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
