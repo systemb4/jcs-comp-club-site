@@ -16,7 +16,7 @@ After submitting your code you will have to do one more thing. You will have to
 add a function in the main index.py file and templates/index.html file.
 
 index.html link --->/
-<a href="/projectName"><h2>Name</h2></a>
+<code><h2><a href="/projectName"><h2>Name</h2></a></h2></code>
 
 index.py link --->/
 @app.route('/projectName')/
