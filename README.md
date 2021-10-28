@@ -12,6 +12,17 @@ jcscomp.xyz
 2. Place your javascript in the same folder with your name on it
 3. Place your html into a folder with your name under the templates folder
 
+After submitting your code you will have to do one more thing. You will have to
+add a function in the main index.py file and templates/index.html file.
+
+index.html link --->/
+<a href="/projectName"><h2>Name</h2></a>
+
+index.py link --->/
+@app.route('/projectName')/
+def projectName():/
+    return render_template('FolderName/index.html')/
+
 ### directory structure example
 static\
 ->Joe_Student\
@@ -20,4 +31,4 @@ static\
 --->main.js\
 templates\
 ->Joe_Student\
---->index.html\
+--->index.html
