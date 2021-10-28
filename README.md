@@ -1,6 +1,6 @@
 # jcs-comp-club-site
-The github repository for the John Cooper school computer club website\
-jcscomp.xyz
+The github repository for the John Cooper school computer club website<br>
+<code>jcscomp.xyz</code>
 
 ### dependencies
 * install python-flask via <code>pip install flask</code>
@@ -16,8 +16,8 @@ After submitting your code you will have to do one more thing. You will have to
 add a function in the main index.py file and templates/index.html file.
 
 <!--
-index.html link/
-<a href="/projectName"><h2>Name</h2></a>
+index.html link<br>
+<a href="/projectName"><h2>Name</h2></a><br>
 -->
 
 index.py link<br>
@@ -26,11 +26,11 @@ def projectName():<br>
     return render_template('FolderName/index.html')<br>
 
 ### directory structure example
-static\
-->Joe_Student\
---->css\
------>main.css\
---->main.js\
-templates\
-->Joe_Student\
---->index.html
+static<br>
+->Joe_Student<br>
+--->css<br>
+----->main.css<br>
+--->main.js<br>
+templates<br>
+->Joe_Student<br>
+--->index.html<br>
