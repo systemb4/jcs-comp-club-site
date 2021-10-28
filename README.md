@@ -13,11 +13,11 @@ jcscomp.xyz
 3. Place your html into a folder with your name under the templates folder
 
 ### directory structure example
-static
-->Joe_Student
---->css
------>main.css
---->main.js
-templates
-->Joe_Student
---->index.html
+static\
+->Joe_Student\
+--->css\
+----->main.css\
+--->main.js\
+templates\
+->Joe_Student\
+--->index.html\
