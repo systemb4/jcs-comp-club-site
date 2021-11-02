@@ -10,5 +10,9 @@ def index():
     def JoeStudent():
         return render_template('JoeStudent/index.html')
 
+@app.route('/tutorial_video')
+    def tutorialVideo():
+        return render_template('tutorial_video.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
