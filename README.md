@@ -6,7 +6,7 @@ The github repository for the John Cooper school computer club website<br>
 * install python-flask via <code>pip install flask</code>
 * to run locally, use <code>python index.py</code>
 
-## How to contribute your work to the website
+## How to contribute your work to the website (jcscomp.xyz/tutorial_video)
 1. Place your css under the static folder within a folder with your name on it
    with in a css folder
 2. Place your javascript in the same folder with your name on it
