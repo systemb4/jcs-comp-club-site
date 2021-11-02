@@ -2,7 +2,8 @@
 The github repository for the John Cooper school computer club website<br>
 <code>jcscomp.xyz</code>
 
-# PSA, we need a design for the home page as the current one is just a place holder. Email 23LNitzsche@johncooper.org with your ideas or code.
+# PSA
+we need a design for the home page as the current one is just a place holder. Email 23LNitzsche@johncooper.org with your ideas or code.
 
 ### dependencies
 * install python-flask via <code>pip install flask</code>
