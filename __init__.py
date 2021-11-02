@@ -16,7 +16,7 @@ def tutorialVideo():
 
 @app.route('/Francis')
 def Francis():
-    return render_template('Francis/index.html')
+    return render_template('Francis/Index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
