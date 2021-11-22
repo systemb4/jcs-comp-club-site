@@ -2,50 +2,64 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.member_projects_list {
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    margin: auto;
+    width: 50%;
+}
+
+.about_header {
+    color: white;
+    padding: 40px;
+    margin: auto;
+    width: 50%;
 }
 
 body {
-    background-color: #1c1c1c;
-    width: 1000px;
-    margin: 0 auto;
+    font-family: montserrat;
+    background: #1c1c1c;
 }
 
-.title {
-    background-color: #013220;
-    border-radius: 25px;
-    padding: 10px;
-    margin-top: 10px;
-    color: #eeeeee;
-    float: left;
+nav {
+    background: #2b694e;
+    height: 80px;
+    width: 100%;
 }
 
-.menu {
-    background-color: #013220;
-    border-radius: 25px;
-    padding: 10px;
-    margin-top: 10px;
-    color: #ffffff;
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 40px;
+}
+
+nav ul {
     float: right;
-    font-size: 18px;
+    margin-right: 20px;
 }
 
-div.mainHome * {
-    color: #ffffff;
-    float: left;
-    margin-top: 30px;
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-/* top menu */
-ul li {
-    list-style: none;
-    float: left;
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
 }
 
-ul li a {
-    color: #eeeeee;
-    padding: 0 10px;
-}
-
-a:hover {
-    text-decoration: underline;
+a.active,a:hover {
+    background: #1c1c1c;
+    color: #white;
+    transition: .5s;
 }
