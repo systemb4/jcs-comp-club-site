@@ -9,7 +9,7 @@ we need a design for the home page as the current one is just a place holder. Em
 * install python-flask via <code>pip install flask</code>
 * to run locally, use <code>python index.py</code>
 
-## How to contribute your work to the website (http://jcscomp.xyz/tutorial_video)
+## How to contribute your work to the website
 1. Place your css under the static folder within a folder with your name on it
    with in a css folder
 2. Place your javascript in the same folder with your name on it
