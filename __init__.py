@@ -18,6 +18,10 @@ def about():
 def contribute():
     return render_template('contribute.html')
 
+@app.route('/robotics')
+def robotics():
+    return render_template('robotics.html')
+
 @app.route('/JoeStudent')
 def JoeStudent():
     return render_template('JoeStudent/index.html')
